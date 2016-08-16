@@ -10,9 +10,9 @@ import urllib.request
 # tb_existing_url_csv = 'https://docs.google.com/spreadsheets/d/1X5Jp7Q8pTs3KLJ5JBWKhncVACGsg5v4xu6badNs4C7I/pub?gid=0&output=csv'
 # tb_new_url_csv = 'https://docs.google.com/spreadsheets/d/1Pl51PcEGlO9Hp4Uh0x2_QM0xVb53p2UDBMPwcnSjFTk/pub?gid=0&output=csv'
 
-local_tb_deaths_file = 'tb_deaths_100.csv'
-local_tb_existing_file = 'tb_existing_100.csv'
-local_tb_new_file = 'tb_new_100.csv'
+local_tb_deaths_file = 'data/tb_deaths_100.csv'
+local_tb_existing_file = 'data/tb_existing_100.csv'
+local_tb_new_file = 'data/tb_new_100.csv'
 #
 # deaths_f = urllib.request.urlretrieve(tb_deaths_url_csv, local_tb_deaths_file) # country names -> row labels
 # existing_f = urllib.request.urlretrieve(tb_existing_url_csv, local_tb_existing_file) # cells as numbers

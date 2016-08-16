@@ -5,8 +5,8 @@
 # train_data_url = "https://dl.dropboxusercontent.com/u/8082731/datasets/UMICH-SI650/training.txt"
 
 # define local file names
-test_data_file_name = 'test_data.csv'
-train_data_file_name = 'train_data.csv'
+test_data_file_name = 'data/test_data.csv'
+train_data_file_name = 'data/train_data.csv'
 
 # download files using urlib
 # test_data_f = urllib.request.urlretrieve(test_data_url, test_data_file_name)
